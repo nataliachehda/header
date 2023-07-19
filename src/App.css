@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 100vh;
+  }
+  
+  .divCarrito {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .cart {
+    margin-right: 5px;
+    width: 30px;
+    height: auto;
+  }

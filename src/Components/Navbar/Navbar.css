@@ -1,0 +1,35 @@
+.hamburger-menu {
+    position: flex;
+    display:flex;
+  }
+  
+  .hamburger-icon {
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .menu-items {
+    margin-top: 10px;
+    margin-left: -10px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #3E8C8C;
+    padding: 30px;
+    z-index: 1;
+    padding-bottom: 50px;
+
+  }
+  
+  .menu-items a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 0;
+  }
+  
+  .spacer {
+    height: 10px; /* Ajusta la altura de los espacios adicionales según sea necesario */
+  }
+  
